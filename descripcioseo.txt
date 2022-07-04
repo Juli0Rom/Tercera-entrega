@@ -1,0 +1,10 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+1.- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica lo que encontrarás en mi sitio: 
+“El arte como motor de mi vida"
+
+2.- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que tendran las páginas de mi sitio: 
+ARTE, PINTURA, ESCULTURA, OBRA, OLEO, VIDA,
+
+3.- Encabezado: 
+    * El encabezado del h1 utilicé el texto “La pintura a travez de los años”

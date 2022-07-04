@@ -1,0 +1,16 @@
+@mixin letras ($color, $tamano) {
+    color: $color;
+    font-size: $tamano;
+
+}
+
+
+.letraTitulo {
+    @include letras (red, 40px);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.letraGrandeOscura {
+    @include letras (blue, 2rem)
+    
+}
