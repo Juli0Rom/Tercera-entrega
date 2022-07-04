@@ -1,0 +1,19 @@
+.Seccion-1 form {
+    grid-area: form;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form h3 {
+        font-size: rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+
+
+.form input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}

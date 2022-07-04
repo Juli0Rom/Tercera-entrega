@@ -35,11 +35,126 @@
 .footer {
   grid-area: footer; }
 
+.footer {
+  grid-area: footer;
+  background-color: antiquewhite;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer i {
+    font-size: 4rem;
+    justify-content: center !important; }
+
+.titularArticulo {
+  display: inline-block;
+  max-width: 400px;
+  text-align: justify; }
+
 .letraTitulo {
-  color: red;
-  font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px; }
 
 .letraGrandeOscura {
-  color: blue;
-  font-size: 2rem; }
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace; }
+
+.Seccion-1 {
+  grid-area: Seccion-1;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 30px; }
+
+.navbar-brand img {
+  max-width: 120px; }
+
+.navbar-expand-lg {
+  background-color: antiquewhite; }
+  .navbar-expand-lg li:hover {
+    background-color: #d6ce5f;
+    border-radius: 15px; }
+
+.titularArticulo {
+  display: inline-block;
+  max-width: 400px;
+  text-align: justify; }
+
+.imagenPintando {
+  display: inline-block;
+  margin-left: 100px; }
+
+.bajadadeTexto {
+  text-align: justify;
+  margin-right: 100px; }
+
+.col {
+  padding: 50px; }
+
+.col-5 {
+  padding: 100px; }
+
+.col-6 {
+  text-align: justify; }
+
+/* Jquery */
+@media (max-width: 768px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header header header" "Seccion-1 Seccion-1 Seccion-1 Seccion-1" "footer footer footer footer"; }
+  .header, .footer {
+    grid-area: header;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex; }
+  .header li, .footer li {
+    list-style: circle;
+    padding: 20px;
+    height: 30px; }
+  .header ul, .footer ul {
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .header li:hover, .footer li:hover {
+    background-color: #d6ce5f;
+    border-radius: 15px;
+    max-width: 85px; }
+  .header img, .footer img {
+    display: nome; }
+  .seccion-1 {
+    flex-direction: row; }
+  .footer i {
+    font-size: 4rem;
+    justify-content: center; }
+  .pieFoto {
+    display: none; }
+  .footer i {
+    font-size: 4rem;
+    justify-content: center; } }
+
+@media (max-width: 480px) {
+  .pieFoto {
+    display: none; } }
+
+.Seccion-1 form {
+  grid-area: form;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Seccion-1 form form h3 {
+    font-size: rem;
+    font-family: 'Times New Roman', Times, serif; }
+
+.form input[type=submit]:hover {
+  background-color: black;
+  color: white; }

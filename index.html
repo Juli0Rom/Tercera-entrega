@@ -48,12 +48,12 @@
                             Fotos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Acuarelas </a></li>
-                            <li><a class="dropdown-item" href="#">Oleos</a></li>
+                            <li><a class="dropdown-item" href="./fotos.html">Acuarelas </a></li>
+                            <li><a class="dropdown-item" href="./fotos.html">Oleos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">Sobre mi</a>
+                        <a class="nav-link" href="./sobremi.html">Sobre mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -63,31 +63,69 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
-
-        <div class="Seccion-1">
-            <section class="titularArticulo">
-                <p class="letraTitulo">La Pintura para mi</p>
-                <h1>La pintura a travez de los años</h1>
-                <p><span class="letraGrandeOscura">Lorem ipsum</span> dolor sit amet
-                    consectetur adipisicing elit. Natus non accusamus perspiciatis quidem.
-                    Ducimus voluptatem <span class="letraGrande">temporibus cumque!</span> Autem, quidem!
-                    Blanditiis,
-                    deserunt illum in ad non <span class="letraGrandeOscura">provident</span> repellendus accusamus
-                    nobis veritatis.Sit amet consectetur adipisicing elit. Quia expedita hic
-                    fugit, at excepturi recusandae deleniti vitae quod voluptatem, similique fugiat minima libero
-                    tempora. Iusto assumenda <span class="letraGrandeOscura"> voluptatem voluptatum? </span> Omnis,
-                    quasi.
-                </p>
-            </section>
-            <section class="imagenPintando">
-                <img src="./img/pintandovenecia.jpeg" alt="Artista Julio Romero PIntando en venecia">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <section class="titularArticulo">
+                    <p class="letraTitulo">La Pintura para mi</p>
+                    <h1>La pintura a travez de los años</h1>
+                    <p><span class="letraGrandeOscura">Lorem ipsum</span> dolor sit amet
+                        consectetur adipisicing elit. Natus non accusamus perspiciatis quidem.
+                        Ducimus voluptatem <span class="letraGrande">temporibus cumque!</span> Autem, quidem!
+                        Blanditiis,
+                        deserunt illum in ad non <span class="letraGrandeOscura">provident</span> repellendus accusamus
+                        nobis veritatis.Sit amet consectetur adipisicing elit. Quia expedita hic
+                        fugit, at excepturi recusandae deleniti vitae quod voluptatem, similique fugiat minima libero
+                        tempora. Iusto assumenda <span class="letraGrandeOscura"> voluptatem voluptatum? </span> Omnis,
+                        quasi.
+                    </p>
+                </section>
+            </div>
+            <!-- Corrousel index -->
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/pintando3.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/pintando2.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/pintando.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
                 <p class="pieFoto">Fotografo: Italo Barassi</p>
-            </section>
-            <br>
-            <br>
-            <br>
-            <section class="bajadadeTexto">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-5"><iframe width="400" height="250" src="https://www.youtube.com/embed/OCBwozQzvPw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+        <div class="col-6">
+            <section>
                 <h1 class="letraGrandeOscura">... mi vida</h1>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus ut
@@ -112,34 +150,15 @@
                     laudantium tenetur? Quos voluptate facilis accusamus corporis sint velit blanditiis,
                     repudiandae eius voluptates quod libero, accusantium perspiciatis nesciunt reprehenderit
                     <span class="letraGrandeOscura">vitae</span>. Unde consequuntur esse quisquam repellat,
-                    beatae nemo itaque corporis voluptate
-                    assumenda nisi deleniti, numquam nesciunt ex. Tempora suscipit asperiores quisquam
-                    laboriosam itaque corrupti ipsam, inventore aliquam aspernatur debitis rerum eaque quam
-                    cumque cupiditate. Quasi eligendi repudiandae, dolorem nulla laborum, nemo est aliquid
-                    illum officia soluta deleniti numquam? Modi illo culpa nemo animi repellendus velit ipsa
-                    labore natus, impedit eius fuga nam placeat delectus laboriosam aliquam, qui at
-                    veritatis quisquam voluptatum! Accusantium porro eius officiis id perspiciatis obcaecati
-                    aperiam deserunt, et nesciunt, consequatur ut? Obcaecati, earum beatae? Neque, ab? Quia,
-                    nobis consequatur.
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OCBwozQzvPw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    beatae nemo itaque corporis voluptate.
             </section>
-            <br>
-            <br>
         </div>
+    </div>
 
-        <div class="footer">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
+    <div class="footer">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
 
     </div>
 

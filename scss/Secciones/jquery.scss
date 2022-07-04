@@ -1,0 +1,74 @@
+/* Jquery */
+
+@media (max-width:768px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 0.2fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "header header header header"
+            "Seccion-1 Seccion-1 Seccion-1 Seccion-1"
+            "footer footer footer footer";
+    }
+
+
+    .header {
+        grid-area: header;
+        background-color: antiquewhite;
+        align-items: center;
+        display: flex;
+    }
+
+    .header li {
+        list-style: circle;
+        padding: 20px;
+        height: 30px;
+    }
+
+    .header ul {
+        margin-top: 40px;
+        margin-left: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header li:hover {
+        background-color: rgb(214, 206, 95);
+        border-radius: 15px;
+        max-width: 85px;
+    }
+
+    .header img {
+        display: nome;
+    }
+
+    .seccion-1 {
+        flex-direction: row;
+    }
+
+    .footer i {
+        font-size: 4rem;
+        justify-content: center;
+    }
+
+
+    .pieFoto {
+        display: none;
+    }
+
+    .footer i {
+        font-size: 4rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pieFoto {
+        display: none;
+    }
+
+}

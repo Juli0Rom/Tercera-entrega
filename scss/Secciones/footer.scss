@@ -2,3 +2,18 @@
     grid-area: footer;
     @extend.header;
 }
+
+.footer {
+    grid-area: footer;
+    background-color: antiquewhite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        font-size: 4rem;
+        justify-content: center !important;
+    }
+}
